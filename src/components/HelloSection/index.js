@@ -7,20 +7,24 @@ import Groom from '@assets/images/p-indra.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '03 Oktober 2020, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 03 Oktober 2020';
-
   return (
     <Fragment>
       <div id="fh5co-couple" css={styWrapper}>
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
-              <h3 className="sub-title hs">{finalSubtitle}</h3>
+              <h2 className="main-font">Message du couple</h2>
+              <p>Chers amis et chers invités,</p>
               <p className="info">
-                Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
-                rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
-                keberkahan.
+                Nous sommes ravis d'accueillir chacun d'entre vous sur le site de notre mariage ! Alors que nous
+                entamons ce magnifique voyage d'amour et d'engagement, votre présence remplit nos cœurs de chaleur et de
+                bonheur.
+              </p>
+              <p>
+                Ce site a été conçu avec amour pour vous fournir tous les détails essentiels et de délicieux aperçus de
+                notre histoire d'amour. Vous y trouverez un trésor d'informations sur notre journée spéciale, y compris
+                la date, l'heure et le lieu. Laissez-nous vous guider à travers la tapisserie complexe de la célébration
+                de notre mariage, en veillant à ce que vous ne manquiez pas un seul instant de la magie qui nous attend.
               </p>
             </div>
           </div>
@@ -30,10 +34,10 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Dinda Saraswati, S.I.Kom.</h3>
-                <p className="parent-name parent-name__top">
+                <h3 className="main-font">Stephanie Anoupiague</h3>
+                {/* <p className="parent-name parent-name__top">
                   Putri Bapak Totok Somo Dipoyono <br />& Ibu Setyo Listiani
-                </p>
+                </p> */}
               </div>
             </div>
             <p className="heart text-center">
@@ -47,16 +51,16 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Indra Kusuma, S.Kom.</h3>
-                <p className="parent-name">
+                <h3 className="main-font">Simplice Mustername</h3>
+                {/* <p className="parent-name">
                   Putra Bapak Bunari <br />& Ibu Suratun
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-      {!isInvitation ? (
+      {/* {!isInvitation ? (
         <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
           <div className="container">
             <div className="row">
@@ -75,7 +79,7 @@ function HelloSection({ isInvitation }) {
             </div>
           </div>
         </div>
-      ) : null}
+      ) : null} */}
     </Fragment>
   );
 }

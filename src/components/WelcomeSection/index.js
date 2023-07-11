@@ -44,16 +44,16 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     }
   };
 
-  const renderGuestSection = () => {
-    if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
+  // const renderGuestSection = () => {
+  //   if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
 
-    return (
-      <Fragment>
-        <h3 className="to-dearest">To our Dearest</h3>
-        <h2 className="to-dearest-name">{guestName}</h2>
-      </Fragment>
-    );
-  };
+  //   return (
+  //     <Fragment>
+  //       <h3 className="to-dearest">To our Dearest</h3>
+  //       <h2 className="to-dearest-name">{guestName}</h2>
+  //     </Fragment>
+  //   );
+  // };
 
   return (
     <div css={styHero}>
@@ -69,13 +69,16 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-dinda-indra" />
-              <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title">Dinda &amp; Indra</h1>
+              <h4 className="sub-title">Marriage</h4>
+              <h4 className="sub-title">de</h4>
+              <h1 className="title">Stephanie &amp;  Simplice</h1>
+              <h4 className="sub-title">16 Decembre 2023</h4>
+              <h4 className="sub-title">Douala, Cameroun</h4>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
-              {renderGuestSection()}
-              {isInvitation && (
+              {/* {renderGuestSection()} */}
+              {/* {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
                     <Link to={`/e-ticket?${codeLink}`}>
@@ -83,7 +86,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                     </Link>
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
           <div className="row">

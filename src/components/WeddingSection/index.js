@@ -24,29 +24,46 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              {/* <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span> */}
+              <h2 className="main-font main-font__wedding">Planning</h2>
+              {/* <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span> */}
             </div>
           </div>
           <div className="row">
-            {!isInvitation && renderGuestInfo()}
-            {isInvitation && (
-              <div className="col-md-10 col-md-offset-1">
+            <div className="col-md-10 col-md-offset-1">
+              <WeddingInfoBox
+                title="Mairie"
+                time="11:00"
+                date="15 Decembre 2023"
+                location={<a href='https://www.google.com/maps/search/?api=1&query=Maison+du+Parti+de+Bonadjo%2C+Douala%2C+Cameroon'>
+                Maison du Parti de Bonadjo, Douala, Cameroon</a>}
+                description="Devant les Hommes, nous scellerons notre amour dans un cadre intime et chaleureux. Rejoignez-nous alors que nous échangeons nos vœux, partageons des promesses sincères et nous engageons à cheminer ensemble dans la vie."
+              />
+              <WeddingInfoBox
+                title="Vin d'honneur"
+                time="12:00"
+                date="15 Decembre 2023"
+                location={<a href='https://www.google.com/maps/search/?api=1&query=Maison+du+Parti+de+Bonadjo%2C+Douala%2C+Cameroon'>
+                Maison du Parti de Bonadjo, Douala, Cameroun</a>}
+                description="Après avoir dit Oui à la mairie, rejoignez-nous pour un vin d'honneur qui promet d'être aussi pétillant que le champagne ! Des bulles, des bouchées délicieuses et une ambiance conviviale vous attendent."
+              />
                 <WeddingInfoBox
-                  title="Akad Nikah"
-                  time="Akan dilaksanakan pagi hari "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
-                />
+                title="Eglise"
+                time="11:00"
+                date="16 Decembre 2023"
+                location={<a href='https://www.google.com/maps/search/?api=1&query=Cath%C3%A9drale+St+Pierre+et+Paul+de+Bonadibong%2C+Rue+Joss%2C+Douala%2C+Cameroon'>
+                Cathédrale St Pierre et Paul de Bonadibong, Rue Joss, Douala, Cameroun</a>}
+                description="Rejoignez-nous pour échanger nos vœux devant le Seigneur. Dans ce lieu sacré, nous scellerons notre amour éternel et partagerons des moments de foi, d'émotion et de bénédiction."
+              />
                 <WeddingInfoBox
-                  title="Syukuran Pernikahan"
-                  time="Sesuai jadwal undangan di e-ticket "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
-                />
-              </div>
-            )}
+                title="Soiré"
+                time="19:00"
+                date="16  Decembre 2023"
+                location={<a href='https://www.google.com/maps/search/?api=1&query=H%C3%B4tel+La+Falaise+Bonanjo%2C+Bonanjo%2C+Douala%2C+Cameroon'>
+                Hôtel La Falaise Bonanjo, Bonanjo, Douala, Cameroun</a>}
+                description="Attachez vos ceintures et préparez-vous à une soirée de mariage délirante ! Avec de la musique qui fera vibrer vos pieds, de la nourriture délicieuse qui fera chanter vos papilles, et des surprises qui feront exploser de rire, cette soirée sera inoubliable"
+              />
+            </div>
           </div>
         </div>
       </div>

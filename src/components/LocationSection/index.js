@@ -29,7 +29,7 @@ function LocationSection() {
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.293266961091!2d110.4250066322774!3d-6.992004594949059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ca11d0e6f61%3A0x8c359fe27c58195d!2sHARRIS%20Hotel%20Sentraland%20Semarang!5e0!3m2!1sen!2sid!4v1590977401700!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8749795766!2d9.685424011309232!3d4.0459216469672885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106112fa24f7bf29%3A0xef629baebd5089a5!2sH%C3%B4tel%20La%20Falaise%20Bonanjo!5e0!3m2!1sde!2sde!4v1687299156006!5m2!1sde!2sde"
                 width="100%"
                 height="450"
                 frameBorder="0"
