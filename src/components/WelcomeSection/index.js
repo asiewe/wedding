@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
+import { styWrapper, styHero, styBackground, reservationBtn, styButtonWrapper } from './styles';
 
 const DELAY_TIME = 1500;
 
@@ -44,6 +44,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     }
   };
 
+
   // const renderGuestSection = () => {
   //   if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
 
@@ -77,16 +78,10 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
+              <Link to={`reservation`}>
+              <button className="btn btn-default" css={reservationBtn}>Reservation</button>
+            </Link>
               {/* {renderGuestSection()} */}
-              {/* {isInvitation && (
-                <div className="row" css={styButtonWrapper}>
-                  <div className="col-md-3">
-                    <Link to={`/e-ticket?${codeLink}`}>
-                      <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-                    </Link>
-                  </div>
-                </div>
-              )} */}
             </div>
           </div>
           <div className="row">

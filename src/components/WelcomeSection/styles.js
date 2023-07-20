@@ -284,3 +284,11 @@ export const styButtonWrapper = css`
     border: none;
   }
 `;
+
+export const reservationBtn = css`
+ font-size: 20px;
+ margin-top: 20px;
+ padding: 20px;
+ border-radius: 0;
+
+`
