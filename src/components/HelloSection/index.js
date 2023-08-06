@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-dinda-2.jpg';
-import Groom from '@assets/images/p-indra.jpg';
-
+import Bride from '@assets/images/phanie.jpg';
+import Groom from '@assets/images/simplice.jpg';
+  
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
@@ -51,7 +51,7 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Simplice Mustername</h3>
+                <h3 className="main-font">Simplice Hako</h3>
                 {/* <p className="parent-name">
                   Putra Bapak Bunari <br />& Ibu Suratun
                 </p> */}
