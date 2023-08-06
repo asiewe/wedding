@@ -1,5 +1,7 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/bg-welcome.jpg';
+import Background from '@assets/images/bg_1_2-up.png';
+import SmallBackground from '@assets/images/bg_1.jpg';
+
 
 export const styHero = css`
   width: 100%;
@@ -142,7 +144,13 @@ export const styBackground = css`
     }
   }
 
+  @media screen and (max-width: 1000px) {
+    background-image: url(${SmallBackground});
+
+  }
+
   @media screen and (max-width: 500px) {
+
     .title {
       font-size: 54px;
     }
@@ -293,5 +301,4 @@ export const reservationBtn = css`
  padding: 20px;
  border-radius: 0;
  background: transparent;
- border-color: #007bff;;
 `

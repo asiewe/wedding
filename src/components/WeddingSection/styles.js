@@ -1,5 +1,7 @@
 import { css } from '@emotion/core';
-import Background from '@assets/images/bg-wedding.jpg';
+import SmallBackground from '@assets/images/bg_2.jpg';
+import Background from '@assets/images/bg_2_up.png';
+
 
 export const styWrapper = css`
   background-image: url(${Background});
@@ -8,6 +10,11 @@ export const styWrapper = css`
   width: 100%;
   min-height: 70vh;
   color: #fff !important;
+
+  @media screen and (max-width: 1000px) {
+    background-image: url(${SmallBackground});
+
+  }
 
   .bismillah {
     color: #fff !important;

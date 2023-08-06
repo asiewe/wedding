@@ -79,7 +79,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                 <CountContainer />
               </div>
               <Link to={`https://docs.google.com/forms/d/e/1FAIpQLSeeJvmYKkn5IOPWw99F4WJ7OoQ3fBBrQYFcH_wMoWAjHowKbA/viewform?usp=sf_link`} target="_blank ">
-              <button className="btn btn-outline-primary" css={reservationBtn}>Confirmez votre presence</button>
+              <button className="btn btn-outline-warning" css={reservationBtn}>Confirmez votre presence</button>
             </Link>
               {/* {renderGuestSection()} */}
             </div>
