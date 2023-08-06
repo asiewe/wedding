@@ -40,12 +40,6 @@ function FooterSection({ isInvitation }) {
                     Armel Siewe
                   </a>
                 </small>
-                <small className="block">
-                  Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
-                  </a>
-                </small>
               </p>
             </div>
           </div>

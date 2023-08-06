@@ -1077,7 +1077,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .heart {
-    display: none;
+    /* display: none; */
   }
 }
 
