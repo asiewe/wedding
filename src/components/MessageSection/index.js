@@ -5,7 +5,7 @@ function MessageSection() {
           <div className="overlay" />
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <div className="col-md-8 col-md-offset-2 text-center mx-auto fh5co-heading">
                 <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
                 <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
                 <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>

@@ -9,7 +9,7 @@ function FooterSection({ isInvitation }) {
         <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <div className="col-md-8 col-md-offset-2 text-center mx-auto fh5co-heading">
                 <h2 className="main-font">Vous souhaitez nous faire un cadeau?</h2>
                 <p className="info">
                   Votre présence nous suffit comme cadeau ! Mais pour les plus têtus d'entre vous, voici ci-dessous nos

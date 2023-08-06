@@ -23,14 +23,12 @@ function WeddingSection({ isInvitation }) {
         <div className="overlay" />
         <div className="container">
           <div className="row">
-            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              {/* <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span> */}
+            <div className="col-md-8 col-md-offset-2 text-center mx-auto fh5co-heading">
               <h2 className="main-font main-font__wedding">Planning</h2>
-              {/* <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span> */}
             </div>
           </div>
           <div className="row">
-            <div className="col-md-10 col-md-offset-1">
+            {/* <div className="col-md-10 col-md-offset-1"> */}
               <WeddingInfoBox
                 title="Mairie"
                 time="11:00"
@@ -65,7 +63,7 @@ function WeddingSection({ isInvitation }) {
               />
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </Fragment>
   );

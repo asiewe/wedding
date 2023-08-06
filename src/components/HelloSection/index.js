@@ -12,7 +12,7 @@ function HelloSection({ isInvitation }) {
       <div id="fh5co-couple" css={styWrapper}>
         <div className="container">
           <div className="row">
-            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <div className="col-md-8 col-md-offset-2 text-center mx-auto fh5co-heading">
               <h2 className="main-font">Message du couple</h2>
               <p>Chers amis et chers invités,</p>
               <p className="info">

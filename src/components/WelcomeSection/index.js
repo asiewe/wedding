@@ -68,18 +68,18 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="overlay"></div>
         <div className="container">
           <div className="row" css={styWrapper}>
-            <div className="col-md-8 col-md-offset-2 text-center">
+            <div className="col-md-8 col-md-offset-2 mx-auto text-center">
               <img src={WeddingImg} alt="wedding-dinda-indra" />
               <h4 className="sub-title">Marriage</h4>
               <h4 className="sub-title">de</h4>
               <h1 className="title">Stephanie &amp;  Simplice</h1>
-              <h4 className="sub-title">16 Decembre 2023</h4>
+              <h4 className="sub-title">15 Decembre 2023</h4>
               <h4 className="sub-title">Douala, Cameroun</h4>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
-              <Link to={`reservation`}>
-              <button className="btn btn-default" css={reservationBtn}>Reservation</button>
+              <Link to={`https://docs.google.com/forms/d/e/1FAIpQLSeeJvmYKkn5IOPWw99F4WJ7OoQ3fBBrQYFcH_wMoWAjHowKbA/viewform?usp=sf_link`} target="_blank ">
+              <button className="btn btn-outline-primary" css={reservationBtn}>Confirmez votre presence</button>
             </Link>
               {/* {renderGuestSection()} */}
             </div>

@@ -42,6 +42,8 @@ export const styScrollWrapper = css`
 
     .text {
       animation: ${upAndDownAnimation} 1s infinite alternate;
+      left: 0;
+      right: 0;
     }
 
     @media screen and (max-width: 414px) {
@@ -286,9 +288,10 @@ export const styButtonWrapper = css`
 `;
 
 export const reservationBtn = css`
- font-size: 20px;
+ font-size: 15px;
  margin-top: 20px;
  padding: 20px;
  border-radius: 0;
-
+ background: transparent;
+ border-color: #007bff;;
 `
