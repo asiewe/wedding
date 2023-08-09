@@ -13,14 +13,14 @@ function FooterSection({ isInvitation }) {
                 <h2 className="main-font">Vous souhaitez nous faire un cadeau?</h2>
                 <p className="info">
                   Votre présence nous suffit comme cadeau ! Mais pour les plus têtus d'entre vous, voici ci-dessous nos
-                  mobile money
+                  compte bancaire, paypal et mobile money
 
                   <p className="row">
-                  <div className="col-md-6  text-center">
-                    Orange: xxxxxxxxxxxxxxx
+                  <div className="col-md-12  text-center">
+                    <h4 className='main-font'>PayPal: xxxxxxxxxxxxxxx</h4>
                     </div>
-                    <div className="col-md-6  text-center">
-                    MTN: xxxxxxxxxxxxxxx
+                    <div className="col-md-12  text-center">
+                    <h4 className='main-font'>IBAN: xxxxxxxxxxxxxxx</h4>
                     </div>
                   </p>
                 </p>

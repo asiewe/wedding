@@ -34,7 +34,7 @@ function HelloSection( ) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Stephanie Anoupiague</h3>
+                <h3 className="main-font">Stephanie</h3>
               </div>
             </div>
             <p className="heart text-center">
@@ -48,7 +48,7 @@ function HelloSection( ) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Simplice Hako</h3>
+                <h3 className="main-font">Simplice</h3>
               </div>
             </div>
           </div>
