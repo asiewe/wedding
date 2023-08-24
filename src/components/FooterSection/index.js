@@ -17,10 +17,13 @@ function FooterSection({ isInvitation }) {
 
                   <p className="row">
                   <div className="col-md-12  text-center">
-                    <h4 className='main-font'>PayPal: xxxxxxxxxxxxxxx</h4>
+                    <h4 className='main-font'>PayPal: hako8@yahoo.fr</h4>
                     </div>
                     <div className="col-md-12  text-center">
-                    <h4 className='main-font'>IBAN: xxxxxxxxxxxxxxx</h4>
+                    <h4 className='main-font'>IBAN: DE67100500001063985834</h4>
+                    </div>
+                    <div className="col-md-12  text-center">
+                    <h4 className='main-font'>Orange Money: 697954487</h4>
                     </div>
                   </p>
                 </p>
