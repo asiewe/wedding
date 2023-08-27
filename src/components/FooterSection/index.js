@@ -1,6 +1,19 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from '../HelloSection/styles';
+import { Link } from 'gatsby';
+import { css } from '@emotion/core';
+
+
+const reservationBtn = css`
+ font-size: 15px;
+ margin-top: 20px;
+ padding: 20px;
+ border-radius: 0;
+ background: #ffc800;
+ color: white !important;
+ border-color: #ffc800;
+`
 
 function FooterSection({ isInvitation }) {
   return (
@@ -17,14 +30,19 @@ function FooterSection({ isInvitation }) {
 
                   <p className="row">
                   <div className="col-md-12  text-center">
-                    <h4 className='main-font'>PayPal: hako8@yahoo.fr</h4>
+                    <h4>PayPal: hako8@yahoo.fr</h4>
                     </div>
                     <div className="col-md-12  text-center">
-                    <h4 className='main-font'>IBAN: DE67100500001063985834</h4>
+                    <h4>IBAN: DE67100500001063985834</h4>
                     </div>
                     <div className="col-md-12  text-center">
-                    <h4 className='main-font'>Orange Money: 697954487</h4>
+                    <h4>Orange Money: 697954487</h4>
                     </div>
+                  </p>
+                  <p className="col-md-12  text-center">
+                  <Link to={`https://docs.google.com/forms/d/e/1FAIpQLSeeJvmYKkn5IOPWw99F4WJ7OoQ3fBBrQYFcH_wMoWAjHowKbA/viewform?usp=sf_link`} target="_blank ">
+              <button className="btn btn-warning" css={reservationBtn}>Confirmez votre presence</button>
+            </Link>
                   </p>
                 </p>
               </div>

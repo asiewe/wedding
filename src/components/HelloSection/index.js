@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import Bride from '@assets/images/phanie.jpg';
-import Groom from '@assets/images/simplice.jpg';
+import Groom from '@assets/images/simplice_1_1.jpg';
 
 import { styWrapper } from './styles';
 
@@ -22,7 +22,7 @@ function HelloSection( ) {
               </p>
               <p>
                 Ce site a été conçu avec amour pour vous fournir tous les détails essentiels et de délicieux aperçus de
-                notre histoire d'amour. Vous y trouverez un trésor d'informations sur notre journée spéciale, y compris
+                notre histoire d'amour. Vous y trouverez un trésor d'informations sur nos journées spéciale, y compris
                 la date, l'heure et le lieu. Laissez-nous vous guider à travers la tapisserie complexe de la célébration
                 de notre mariage, en veillant à ce que vous ne manquiez pas un seul instant de la magie qui nous attend.
               </p>

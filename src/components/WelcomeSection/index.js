@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
-import { Link } from 'gatsby';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styWrapper, styHero, styBackground, reservationBtn } from './styles';
+import { styWrapper, styHero, styBackground } from './styles';
 
 const DELAY_TIME = 1500;
 
@@ -44,7 +43,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     }
   };
 
-
   // const renderGuestSection = () => {
   //   if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
 
@@ -72,15 +70,12 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               <img src={WeddingImg} alt="wedding-dinda-indra" />
               <h4 className="sub-title">Marriage</h4>
               <h4 className="sub-title">de</h4>
-              <h1 className="title">Stephanie &amp;  Simplice</h1>
+              <h1 className="title">Stephanie &amp; Simplice</h1>
               <h4 className="sub-title">15 Decembre 2023</h4>
               <h4 className="sub-title">Douala, Cameroun</h4>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
-              <Link to={`https://docs.google.com/forms/d/e/1FAIpQLSeeJvmYKkn5IOPWw99F4WJ7OoQ3fBBrQYFcH_wMoWAjHowKbA/viewform?usp=sf_link`} target="_blank ">
-              <button className="btn btn-outline-warning" css={reservationBtn}>Confirmez votre presence</button>
-            </Link>
               {/* {renderGuestSection()} */}
             </div>
           </div>

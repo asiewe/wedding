@@ -47,7 +47,7 @@ function WeddingSection({ isInvitation }) {
               />
                 <WeddingInfoBox
                 title="Eglise"
-                time="11:00"
+                time="09:00"
                 date="16 Decembre 2023"
                 location={<a href='https://www.google.com/maps/search/?api=1&query=Cath%C3%A9drale+St+Pierre+et+Paul+de+Bonadibong%2C+Rue+Joss%2C+Douala%2C+Cameroon'>
                 Cathédrale St Pierre et Paul de Bonadibong, Rue Joss, Douala, Cameroun</a>}
@@ -57,8 +57,8 @@ function WeddingSection({ isInvitation }) {
                 title="Soiré"
                 time="19:00"
                 date="16  Decembre 2023"
-                location={<a href='https://www.google.com/maps/search/?api=1&query=H%C3%B4tel+La+Falaise+Bonanjo%2C+Bonanjo%2C+Douala%2C+Cameroon'>
-                Hôtel La Falaise Bonanjo, Bonanjo, Douala, Cameroun</a>}
+                location={<a href='https://goo.gl/maps/q9Ek6rdEmtQG9F7q8'>
+                Hôtel La Falaise Bonanjo (Salle Diamond), Bonanjo, Douala, Cameroun</a>}
                 description="Attachez vos ceintures et préparez-vous à une soirée de mariage délirante ! Avec de la musique qui fera vibrer vos pieds, de la nourriture délicieuse qui fera chanter vos papilles, et des surprises qui feront exploser de rire, cette soirée sera inoubliable"
               />
             </div>
