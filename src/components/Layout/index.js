@@ -23,7 +23,7 @@ function MainLayout({ children }) {
         <meta property="og:title" content="Stephanie ❤️ Simplice" />
         <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta property="og:url" content="https://wedding-ivory-six.vercel.app/" />
+        <meta property="og:url" content="https://stephanie-simplice.com/" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
         <meta property="og:type" content="website" />
