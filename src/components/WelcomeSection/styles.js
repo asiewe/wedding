@@ -33,11 +33,11 @@ export const styScrollWrapper = css`
   #scroll {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     cursor: pointer;
+    width: 100%;
 
-    span {
-      position: absolute;
-      bottom: 46px;
+    .more-details-btn {
       text-align: center;
       color: #fff;
     }
@@ -65,9 +65,6 @@ export const styScrollWrapper = css`
 
   .scroll__icon {
     .button {
-      position: absolute;
-      bottom: 46px;
-      left: 50%;
       z-index: 2;
       display: inline-block;
       transform: translate(0, -50%);
@@ -87,7 +84,6 @@ export const styScrollWrapper = css`
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
         border-radius: 100%;
         opacity: 0;
-        animation: ${radarAnimation} 3s infinite;
         box-sizing: border-box;
       }
 
@@ -99,8 +95,8 @@ export const styScrollWrapper = css`
         width: 16px;
         height: 16px;
         margin: -12px 0 0 -8px;
-        border-left: 1px solid #fff;
-        border-bottom: 1px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
         transform: rotate(-45deg);
         box-sizing: border-box;
       }

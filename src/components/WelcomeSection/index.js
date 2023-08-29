@@ -80,7 +80,9 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             </div>
           </div>
           <div className="row">
+            <div className='col-12'>
             <ScrollToDown loading={loading} onClick={handleShowDetail} />
+            </div>
           </div>
         </div>
       </header>
