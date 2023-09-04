@@ -31,18 +31,18 @@ function FooterSection({ isInvitation }) {
                   Votre présence nous suffit comme cadeau ! Mais pour les plus têtus d'entre vous, voici ci-dessous nos
                   compte bancaire, paypal et mobile money
                   <p className="row" style={{alignItems: 'baseline'}}>
-                    <div className="col-4"><img src={paypalLogo} width={80} height={80} alt='paypal logo'/></div>
-                    <div className="col-8"><h5><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></h5></div>
+                    <div className="col-md-4"><img src={paypalLogo} width={80} height={80} alt='paypal logo'/></div>
+                    <div className="col-md-8"><h5><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></h5></div>
                   </p>
                   <p className="row" style={{alignItems: 'baseline'}}>
-                    <div className="col-4">
+                    <div className="col-md-4">
                       <h3>IBAN</h3>
                     </div>
-                    <div className="col-8"><h5>DE67100500001063985834</h5></div>
+                    <div className="col-md-8"><h5>DE67100500001063985834</h5></div>
                   </p>
                   <p className="row" style={{alignItems: 'baseline'}}>
-                    <div className="col-4"><img src={orangeMoneyLogo} width={80} height={80} alt='orange money logo'/></div>
-                    <div className="col-8"><h5>697954487</h5></div>
+                    <div className="col-md-4"><img src={orangeMoneyLogo} width={80} height={80} alt='orange money logo'/></div>
+                    <div className="col-md-8"><h5>697954487</h5></div>
                   </p>
                   <p className="col-md-12  text-center">
                     <Link
