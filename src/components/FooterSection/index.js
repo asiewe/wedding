@@ -29,7 +29,7 @@ function FooterSection({ isInvitation }) {
                   compte bancaire, paypal et mobile money
                   <p className="row" style={{alignItems: 'center'}}>
                     <div className="col-4"><img src={paypalLogo} width={80} height={80} alt='paypal logo'/></div>
-                    <div className="col-8"><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></div>
+                    <div className="col-8"><h6><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></h6></div>
                   </p>
                   <p className="row" style={{alignItems: 'center'}}>
                     <div className="col-4">
