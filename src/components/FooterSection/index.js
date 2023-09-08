@@ -27,7 +27,7 @@ function FooterSection({ isInvitation }) {
                 <p className="info">
                   Votre présence nous suffit comme cadeau ! Mais pour les plus têtus d'entre vous, voici ci-dessous nos
                   compte bancaire, paypal et mobile money
-                  <p className="row" style={{alignItems: 'center'}}>
+                  <p className="row" style={{alignItems: 'baseline'}}>
                     <div className="col-4"><img src={paypalLogo} width={80} height={80} alt='paypal logo'/></div>
                     <div className="col-8"><h6><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></h6></div>
                   </p>
