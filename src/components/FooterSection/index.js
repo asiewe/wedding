@@ -13,9 +13,6 @@ const reservationBtn = css`
   margin-top: 20px;
   padding: 20px;
   border-radius: 0;
-  background: #ffc800;
-  color: white !important;
-  border-color: #ffc800;
 `;
 
 function FooterSection({ isInvitation }) {
@@ -30,26 +27,31 @@ function FooterSection({ isInvitation }) {
                 <p className="info">
                   Votre présence nous suffit comme cadeau ! Mais pour les plus têtus d'entre vous, voici ci-dessous nos
                   compte bancaire, paypal et mobile money
-                  <p className="row" style={{alignItems: 'baseline'}}>
-                    <div className="col-md-4"><img src={paypalLogo} width={80} height={80} alt='paypal logo'/></div>
-                    <div className="col-md-8"><h5><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></h5></div>
+                  <p className="row" style={{alignItems: 'center'}}>
+                    <div className="col-4"><img src={paypalLogo} width={80} height={80} alt='paypal logo'/></div>
+                    <div className="col-8"><a href='https://paypal.me/hako8'>https://paypal.me/hako8</a></div>
                   </p>
-                  <p className="row" style={{alignItems: 'baseline'}}>
-                    <div className="col-md-4">
-                      <h3>IBAN</h3>
+                  <p className="row" style={{alignItems: 'center'}}>
+                    <div className="col-4">
+                      <h5>IBAN</h5>
                     </div>
-                    <div className="col-md-8"><h5>DE67100500001063985834</h5></div>
+                    <div className="col-8">
+                      <h6>DE67100500001063985834<br/>Nom: Jacques Hako</h6>
+                    </div>
                   </p>
-                  <p className="row" style={{alignItems: 'baseline'}}>
-                    <div className="col-md-4"><img src={orangeMoneyLogo} width={80} height={80} alt='orange money logo'/></div>
-                    <div className="col-md-8"><h5>697954487</h5></div>
+                  <p className="row" style={{alignItems: 'center'}}>
+                    <div className="col-4"><img src={orangeMoneyLogo} width={55} height={55} alt='orange money logo'/></div>
+                    <div className="col-8">
+                      <h6>697954487<br/>Nom: Jacques Hako</h6>
+                      <h6></h6>
+                    </div>
                   </p>
-                  <p className="col-md-12  text-center">
+                  <p className="col-12  text-center">
                     <Link
                       to={`https://docs.google.com/forms/d/e/1FAIpQLSeeJvmYKkn5IOPWw99F4WJ7OoQ3fBBrQYFcH_wMoWAjHowKbA/viewform?usp=sf_link`}
                       target="_blank "
                     >
-                      <button className="btn btn-warning" css={reservationBtn}>
+                      <button className="btn btn-secondary" css={reservationBtn}>
                         Confirmez votre presence
                       </button>
                     </Link>
