@@ -34,7 +34,7 @@ function WeddingSection({ isInvitation }) {
                 time="11:00"
                 date="15 Decembre 2023"
                 location={<a href='https://www.google.com/maps/search/?api=1&query=Maison+du+Parti+de+Bonadjo%2C+Douala%2C+Cameroon'>
-                Maison du Parti de Bonadjo, Douala, Cameroon</a>}
+                Maison du Parti de Bonanjo, Douala, Cameroon</a>}
                 description="Devant les Hommes, nous scellerons notre amour dans un cadre intime et chaleureux. Rejoignez-nous alors que nous échangeons nos vœux, partageons des promesses sincères et nous engageons à cheminer ensemble dans la vie."
               />
               <WeddingInfoBox
