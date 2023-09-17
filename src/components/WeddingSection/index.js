@@ -42,7 +42,7 @@ function WeddingSection({ isInvitation }) {
                 time="12:00"
                 date="15 Decembre 2023"
                 location={<a href='https://www.google.com/maps/search/?api=1&query=Maison+du+Parti+de+Bonadjo%2C+Douala%2C+Cameroon'>
-                Maison du Parti de Bonadjo, Douala, Cameroun</a>}
+                Maison du Parti de Bonanjo, Douala, Cameroun</a>}
                 description="Après avoir dit Oui à la mairie, rejoignez-nous pour un vin d'honneur qui promet d'être aussi pétillant que le champagne ! Des bulles, des bouchées délicieuses et une ambiance conviviale vous attendent."
               />
                 <WeddingInfoBox
@@ -54,11 +54,11 @@ function WeddingSection({ isInvitation }) {
                 description="Rejoignez-nous pour échanger nos vœux devant le Seigneur. Dans ce lieu sacré, nous scellerons notre amour éternel et partagerons des moments de foi, d'émotion et de bénédiction."
               />
                 <WeddingInfoBox
-                title="Soiré"
+                title="Soirée"
                 time="19:00"
                 date="16  Decembre 2023"
                 location={<a href='https://goo.gl/maps/q9Ek6rdEmtQG9F7q8'>
-                Hôtel La Falaise Bonanjo (Salle Diamond), Bonanjo, Douala, Cameroun</a>}
+                Hôtel La Falaise Bonanjo (Salle Diamond), Douala, Cameroun</a>}
                 description="Attachez vos ceintures et préparez-vous à une soirée de mariage délirante ! Avec de la musique qui fera vibrer vos pieds, de la nourriture délicieuse qui fera chanter vos papilles, et des surprises qui feront exploser de rire, cette soirée sera inoubliable"
               />
             </div>
